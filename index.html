@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pokémon Guessing Game</h1>
+            <div id="randomLetter" class="random-letter">A</div>
+        </div>
+        <div class="game">
+            <div class="player-inputs">
+                <div class="player">
+                    <h2>Player 1</h2>
+                    <input type="text" id="player1Input" placeholder="Enter Pokémon Name">
+                </div>
+                <div class="player">
+                    <h2>Player 2</h2>
+                    <input type="text" id="player2Input" placeholder="Enter Pokémon Name">
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+        </div>
+        <div id="results" class="results">
+            <p>Current Round: <span id="roundNumber">1</span></p>
+            <p>Player 1 Score: <span id="player1Score">0</span></p>
+            <p>Player 2 Score: <span id="player2Score">0</span></p>
+            <div id="Skibdi Table">
+                <h3>Truth Table</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Rounds Won (Session)</th>
+                            <th>Total Wins (All Sessions)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Player 1</td>
+                            <td id="player1Wins">0</td>
+                            <td id="player1TotalWins">0</td>
+                        </tr>
+                        <tr>
+                            <td>Player 2</td>
+                            <td id="player2Wins">0</td>
+                            <td id="player2TotalWins">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
