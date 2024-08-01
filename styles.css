@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #282c34;
+    color: #abb2bf;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,20 +12,21 @@ body {
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: #3e4451;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
     margin-bottom: 20px;
+    color: #61afef;
 }
 
 .random-letter {
     font-size: 3em;
     font-weight: bold;
-    color: #333;
+    color: #e06c75;
 }
 
 .game {
@@ -42,21 +44,31 @@ body {
 
 .player h2 {
     margin: 0;
+    color: #98c379;
 }
 
 input[type="text"] {
     padding: 10px;
     font-size: 1em;
+    background-color: #4b5263;
+    color: #abb2bf;
+    border: 1px solid #3e4451;
+    border-radius: 4px;
 }
 
 button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    background-color: #61afef;
+    color: #282c34;
+    border: none;
+    border-radius: 4px;
 }
 
 .results {
     margin-top: 20px;
+    color: #c678dd;
 }
 
 #truthTable {
@@ -66,10 +78,12 @@ button {
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #3e4451;
+    color: #abb2bf;
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #4b5263;
 }
 
 th, td {
