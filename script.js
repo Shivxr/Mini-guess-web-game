@@ -723,7 +723,7 @@ const stats = {
   "Hoopa Unbound": 680,
   "Volcanion": 600
 };
-const letters = 'abcdefghijklmnopqrstuvwxyz'.replace(/[xy]/g, '').split('');
+const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
 let player1Score = 0;
 let player2Score = 0;
 let roundNumber = 1;
