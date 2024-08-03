@@ -722,8 +722,6 @@ const stats = {
   "Hoopa Confined": 600,
   "Hoopa Unbound": 680,
   "Volcanion": 600
-}
-
 };
 const letters = 'abcdefghijklmnopqrstuvwxyz'.replace(/[xy]/g, '').split('');
 let player1Score = 0;
