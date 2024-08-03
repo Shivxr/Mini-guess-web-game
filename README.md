@@ -4,5 +4,5 @@ This is a simple mini game made based on pokemons
 # Players who chose the pokemon with highest BST Wins the round
 # Player to secure 7 wins secures the victory
 Pokemons is a franchise i loved as a kid as well as an adult,I had fun making the web game for pokemon.
-# Upto 649 pokemons till Unova are available in the first prototype
+# Upto 723 pokemons till Kalos Region are available in the first prototype
 # Game link : https://poke-juxtapose.netlify.app/
